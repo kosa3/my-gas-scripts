@@ -1,0 +1,31 @@
+{
+  "name": "mychallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosa3/myChallengeApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kosa3/myChallengeApp/issues"
+  },
+  "homepage": "https://github.com/kosa3/myChallengeApp#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.2.1",
+    "prettier": "1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "0.0.54",
+    "moment": "^2.24.0"
+  }
+}

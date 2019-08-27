@@ -7,8 +7,7 @@ function notificationMyChallenge() {
   formattedDate = `${dateFrom.format("MM/dd")}~${dateTo.format("MM/dd")}`;
 
   conditions = {
-    text:
-      `今週のhogehogeをご投稿ください\\n 対象期間: ${formattedDate}`,
+    text: `今週のhogehogeをご投稿ください\\n 対象期間: ${formattedDate}`,
     title: "今週のhogehoge投稿"
   };
 

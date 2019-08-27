@@ -2,9 +2,7 @@ import Form = GoogleAppsScript.Forms.Form;
 import Spreadsheet = GoogleAppsScript.Spreadsheet.Spreadsheet;
 
 function createForm() {
-  const editors = [
-      "hogehoge@gmail.com"
-  ];
+  const editors = ["hogehoge@gmail.com"];
   let form: Form;
   let spreadSheet: Spreadsheet;
   let conditions: Conditions;
@@ -16,9 +14,7 @@ function createForm() {
   // form作成
   form = FormApp.create("【" + formattedDate + "】今週のhogehoge賞")
     .setTitle("【" + formattedDate + "】今週のhogehoge賞 ")
-    .setDescription(
-      "メンバーを一名投票してください。"
-    )
+    .setDescription("メンバーを一名投票してください。")
     .addEditors(editors)
     .setCollectEmail(true);
 
@@ -38,8 +34,7 @@ function createForm() {
 
   // slackに通知する
   conditions = {
-    text:
-      `みなさま！今週のhogehogeの投票をお願い致します🔥\n ${form.getPublishedUrl()}`,
+    text: `みなさま！今週のhogehogeの投票をお願い致します🔥\n ${form.getPublishedUrl()}`,
     title: "今週のhogehoge投稿"
   };
 

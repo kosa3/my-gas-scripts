@@ -9,9 +9,14 @@ my-gas-scripts
 ## Installation
 
 ```
-$ npm i @google/clasp -g
 $ clasp login
 $ clasp clone [PROJECT_ID]
+$ npm install
+```
+## Code Format
+
+```
+$ make ts-fix
 ```
 
 ## Deploy
@@ -22,5 +27,5 @@ $ clasp deploy
 ```
 
 ## specification
- - create questionnaire google form sheet
- - notice alert unanswered questionnaire
+ - create questionnaire google form sheet.
+ - notice alert unanswered questionnaire.

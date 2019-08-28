@@ -1,5 +1,5 @@
 {
-  "name": "mychallenge",
+  "name": "my-gas-scripts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kosa3/myChallengeApp.git"
+    "url": "git+https://github.com/kosa3/my-gas-scripts.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kosa3/myChallengeApp/issues"
+    "url": "https://github.com/kosa3/my-gas-scripts/issues"
   },
-  "homepage": "https://github.com/kosa3/myChallengeApp#readme",
+  "homepage": "https://github.com/kosa3/my-gas-scripts#readme",
   "devDependencies": {
     "@google/clasp": "^2.2.1",
     "prettier": "1.18.2",
